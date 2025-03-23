@@ -1,0 +1,7 @@
+[
+{
+    "url": "https://example.com",
+    "error": "Message: Cyclic object value\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5\nJavaScriptError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:476:5\ncloneObject@chrome://remote/content/marionette/json.sys.mjs:46:11\ncloneJSON@chrome://remote/content/marionette/json.sys.mjs:207:12\ncloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24\ncloneJSON@chrome://remote/content/marionette/json.sys.mjs:207:12\ncloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24\ncloneJSON@chrome://remote/content/marionette/json.sys.mjs:207:12\ncloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24\ncloneJSON@chrome://remote/content/marionette/json.sys.mjs:207:12\ncloneObject/result<@chrome://remote/content/marionette/json.sys.mjs:53:52\ncloneObject@chrome://remote/content/marionette/json.sys.mjs:53:25\ncloneJSON@chrome://remote/content/marionette/json.sys.mjs:207:12\njson.clone@chrome://remote/content/marionette/json.sys.mjs:212:22\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:306:19\n",
+    "page_type": "about"
+}
+]
